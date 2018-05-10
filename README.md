@@ -31,4 +31,15 @@ Rules of AMP :
 - You are obliged to avoid using class names prefixed with -amp or -amp- to avoid conflicting with AMP components. You can override the styles of these components if you wish.
 - Your style rules must not exceed 50KB.
 - You may acquire font assets either through a whitelisted font vendor (... Google Fonts) or by fetching the font through @font-face via HTTP/HTTPS — i.e. not via data: or -JavaScript plugin (since JS is banned).
+	
+Given solution to Use External CSS
+  JADE :
+  <style amp-custom>
+  	{% include "/assets/css/main.min.css" %}
+  </style>
+  PHP :
+  <style amp-custom>
+  	<?php include '/assets/css/main.min.css'; ?>
+  </style>
+	
 
