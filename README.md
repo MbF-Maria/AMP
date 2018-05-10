@@ -44,4 +44,4 @@ Given solution to Use External CSS
 
 ** Important : Once you complete Design using AMP. You have to validate code by following steps in below link
 https://www.ampproject.org/docs/fundamentals/validate
-	
+
