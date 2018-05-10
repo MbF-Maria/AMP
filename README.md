@@ -33,6 +33,7 @@ Rules of AMP :
 - You may acquire font assets either through a whitelisted font vendor (... Google Fonts) or by fetching the font through @font-face via HTTP/HTTPS — i.e. not via data: or -JavaScript plugin (since JS is banned).
 	
 Given solution to Use External CSS
+-----------------------------------
   JADE :
   <style amp-custom>
   	{% include "/assets/css/main.min.css" %}
