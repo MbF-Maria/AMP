@@ -36,12 +36,8 @@ Given solution to Use External CSS
 -----------------------------------
   JADE :
   <style amp-custom>{% include "/assets/css/main.min.css" %}</style>
-  PHP :<?php
-echo "<p>Copyright &copy; 1999-" . date("Y") . " W3Schools.com</p>";
-?>
-  <style amp-custom><?php
-echo "<p>Copyright &copy; 1999-" . date("Y") . " W3Schools.com</p>";
-?><?php include ('headings.php'); ?><?php include "/assets/css/main.min.css"?></style>
+  PHP :
+  <style amp-custom> use php code format to include file </style>
 
 ** Important : Once you complete Design using AMP. You have to validate code by following steps in below link
 https://www.ampproject.org/docs/fundamentals/validate
